@@ -10,10 +10,6 @@ Jumpman是一个简单轻量的堡垒机系统，支持SSH、RDP、VNC等协议�
 - 审计日志
 - 操作回放
 
-### 在线体验
-- 地址 <a href="https://jump.1fe.cc" target="_blank">jump.1fe.cc</a>   
-- 账号test 密码test
-
 ### 安装运行
 - 使用docker启动
   ```
