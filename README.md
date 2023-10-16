@@ -13,13 +13,14 @@ Jumpman是一个简单轻量的堡垒机系统，支持SSH、RDP、VNC等协议�
 ### 安装运行
 - 使用docker启动
   ```
-  docker run -itd -p 8080:80 qf0129/jumpman:latest  
+  docker run --restart=always -d -p 8080:80 qf0129/jumpman:latest  
   ```  
-  浏览器打开`http://ip:8080`即可访问， 默认账号admin，密码admin  
-
-- 如需连接rdp、vnc协议，需要再启动一个Apache的guacd服务
+  浏览器打开`http://ip:8080`即可访问， 默认账号admin，密码admin
+  
+### 支持rdp、vnc
+- 默认支持ssh，如需连接rdp、vnc协议，需要再启动一个Apache的guacd服务
   ```
-  sudo docker run --restart=always -d -p 4822:4822 guacamole/guacd
+  docker run --restart=always -d -p 4822:4822 guacamole/guacd
   ```
 ### 配置
 - 默认使用sqlite数据库
@@ -49,5 +50,5 @@ Jumpman是一个简单轻量的堡垒机系统，支持SSH、RDP、VNC等协议�
   ```
 - Docker运行时挂载配置文件
   ```
-  sudo docker run -itd -p 8080:80 -v /opt/jumpman/config.ini:/config.ini qf0129/jumpman:latest
+  docker run --restart=always -d -p 8080:80 -v /opt/jumpman/config.ini:/config.ini qf0129/jumpman:latest
   ```
