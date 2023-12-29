@@ -12,8 +12,8 @@ Jumpman是一个简单轻量的堡垒机系统，支持SSH、RDP、VNC等协议�
 - 操作回放
 
 ### 体验地址
-https://jump.feex.fun   
-`账号：admin  密码：admin`
+https://jump.feex.fun  
+`账号：admin  密码：admin`   
 **注意：数据库每小时都会重置（整点）**
 
 ### 预览截图
