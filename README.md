@@ -11,6 +11,12 @@ Jumpman是一个简单轻量的堡垒机系统，支持SSH、RDP、VNC等协议�
 - 操作回放
 
 ### 预览截图
+![Snipaste_2023-12-29_18-27-42](https://github.com/qf0129/jumpman/assets/17614422/a98a31e2-aeb9-4e00-8600-9f44b8b16343)
+![Snipaste_2023-12-29_18-29-03](https://github.com/qf0129/jumpman/assets/17614422/471f6806-7dc6-4593-a095-31529201dfff)
+![Snipaste_2023-12-29_18-29-51](https://github.com/qf0129/jumpman/assets/17614422/37ac1523-6160-4dc8-9dd5-60046af742f3)
+![Snipaste_2023-12-29_18-32-30](https://github.com/qf0129/jumpman/assets/17614422/f51c2327-072d-4d66-9a1f-3c754f4708fc)
+![Snipaste_2023-12-29_18-33-03](https://github.com/qf0129/jumpman/assets/17614422/6ac41279-63c1-48d2-b189-ae98a933fbac)
+![Snipaste_2023-12-29_18-34-32](https://github.com/qf0129/jumpman/assets/17614422/801fd9d2-5a55-480b-ac01-77fc4f46d44d)
 
 
 ### 安装运行
