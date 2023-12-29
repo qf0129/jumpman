@@ -1,6 +1,7 @@
 ## Jumpman
 Jumpman是一个简单轻量的堡垒机系统，支持SSH、RDP、VNC等协议。
 
+
 ### 主要功能
 - 网页连接主机（SSH、RDP、VNC协议）
 - 主机分组管理
@@ -9,6 +10,10 @@ Jumpman是一个简单轻量的堡垒机系统，支持SSH、RDP、VNC等协议�
 - 用户临时授权
 - 审计日志
 - 操作回放
+
+### 体验地址
+https://jump.feex.fun   
+`账号：admin  密码：admin`
 
 ### 预览截图
 ![Snipaste_2023-12-29_18-27-42](https://github.com/qf0129/jumpman/assets/17614422/a98a31e2-aeb9-4e00-8600-9f44b8b16343)
